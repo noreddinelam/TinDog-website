@@ -21,7 +21,7 @@ h1 {
 }
 /*classes*/
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 6%;
 }
 
 .navbar {
@@ -51,4 +51,96 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/**************************/
+
+/* the features section */
+/*IDs*/
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+/*html elements*/
+
+p {
+  color: #8f8f8f;
+}
+
+/*classes*/
+.features-title {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  transition: margin-bottom 0.1s linear;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+  margin-bottom: 1.2rem;
+}
+
+.feature-box {
+  padding: 2.8%;
+}
+
+/* the testimonials section*/
+/*IDs*/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+/*html elements*/
+h2 {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*classes*/
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* the pass section*/
+/*IDs*/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/*html elements*/
+
+/*classes*/
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* the pricing section*/
+/*IDs*/
+#pricing {
+  padding: 100px;
+}
+/*html elements*/
+
+/*classes*/
+.pricing-column {
+  padding: 3% 2%;
 }
