@@ -144,3 +144,45 @@ h2 {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/*----> Media Queries <-----*/
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* the call to action section*/
+/*IDs*/
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+}
+/*html elements*/
+
+/*classes*/
+.cta-title {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+}
+
+/* the footer section*/
+/*IDs*/
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 5% 15%;
+}
+/*html elements*/
+
+/*classes*/
+.social-icon {
+  margin: 0 10px 20px;
+}
